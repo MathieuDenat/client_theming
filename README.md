@@ -21,6 +21,8 @@ cmake -D OEM_THEME_DIR=`pwd`/../nextcloudtheme ../client
 make
 make install
 ```
+### Install dependencies (on Debian)
+You should have to install depencies like: libssl-dev, libsqlite3-dev, qt5keychain-dev, libqt5webkit5-dev.
 
 ## Building on OSX
 
